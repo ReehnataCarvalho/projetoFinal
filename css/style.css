@@ -1,0 +1,79 @@
+.site{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Sofia', cursive;
+}
+.topoContato{
+    display: flex;
+}
+.menu{
+    display: flex;
+    margin: 40px, 0px, 40px, 0px;
+    margin-left: 130px;
+}
+.topoContato{
+    border-radius: 10px; 
+    background-color: #e417e454;
+    justify-content: space-evenly;
+
+}
+.fotoDenu{
+    border-radius: 60px; 
+    background-color: #e417e454;
+    justify-content: space-evenly;
+}
+.menu a{
+    margin: 50px;
+    text-align: center;
+    padding: 4.5rem 2.5rem;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    font-size: 1.5rem;
+    color: white;
+}
+.formularios{
+    display: flex;
+    justify-content: space-around;
+}
+.divasForm {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color:#e417e454;
+    text-align: left;
+    color: #FFFFFF;
+    /*background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: all .2s linear;*/
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.inputNomeCompleto, .inputEmail, .inputEndereco{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+  }
+  
+.login {
+    display: flex;
+}
+.titulos{
+    text-align: center;
+}
