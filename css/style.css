@@ -59,8 +59,8 @@ body{
     margin: 0 auto;
 }
 
-.inputNomeCompleto, .inputEmail, .inputEndereco{
-    width: 400px;
+.inputEndereco{
+    width: 440px;
     height: 30px;
     font-size: 15px;
     margin-bottom: 10px;
