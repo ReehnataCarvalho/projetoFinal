@@ -19,7 +19,7 @@ fetch("http://localhost:2990/maravilhosas")
         boxDepo.appendChild(depo);
 
         const nome = document.createElement('h3');
-        nome.textContent = depoimento.nome 
+        nome.textContent = depoimento.nome + " Tenho " + depoimento.idade + " anos" 
         boxDepo.appendChild(nome);
 
     });
