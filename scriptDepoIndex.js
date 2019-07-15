@@ -1,4 +1,4 @@
-const containerDepo = document.querySelector('.boxDepoimento');
+const containerDepo = document.querySelector('.boxDepoIndex');
 
 
 fetch("http://localhost:2990/maravilhosas")
@@ -11,7 +11,7 @@ fetch("http://localhost:2990/maravilhosas")
 
     maravilhosas.forEach(depoimento => {
         const boxDepo = document.createElement('div');
-        boxDepo.setAttribute('class','box');
+        boxDepo.setAttribute('class','depoIndex');
         containerDepo.appendChild(boxDepo);
 
         const depo = document.createElement('p');

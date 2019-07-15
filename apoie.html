@@ -15,12 +15,12 @@
     <header>
         <!--Inicio do bloco Topo-->
         <article class="topoContato">
-            <h4>E-mail: vocenaoestaso@gmail.com</h4>
-                <a href="">Facebook</a>
-                <a href="">Insta</a>
-                <a href="">Twitter</a>
-                <a href="login.html">Login</a>
-            </article>
+            <h3>E-mail: vocenaoestaso@gmail.com</h3>
+            <a href=""><img src="./img/face.svg"></a>
+            <a href=""><img src="./img/insta.svg"></a>
+            <a href=""><img src="./img/twitter.svg"></a>
+            <button><a href="login.html"> entrar</a></button>
+        </article>
         <!--Fim do bloco Topo-->
     
     <!--Inicio do bloco Menu-->
@@ -38,36 +38,41 @@
             <h1 class="titulos">Divas do Bem</h1>
             <p>Estas sao mulheres dispostas a conversar com voce que esta precisando de uma palavra amiga, um conselho, alguem pra desabafar sobre sua historia... </p>
             <p>Envie um email.. Uma palavra com carinho voce recebera!!!</p>
-            <div class="divasForm"></div>
+            
+            <div class="boxDivasDoBem">
+
+            </div>
         </div>
         <div>
             <h1 class="titulos">Seja uma Diva do Bem e venha ajudar mais Mulheres</h1>
         </div>
         <div class="formularios">
+                <div id="message"></div>
             <div class="divasForm">
                 <h2>Cadastrar</h2>
                 <form>
                     <div>
-                        <input name="nomeDiva"  type="text">
+                        <input name="nomeDiva" id="nome"  type="text">
                         <label>Nome Completo...</label>
                     </div>
                     <div>
-                        <input name="usuarioDiva" type="text">
+                        <input name="usuarioDiva"
+                        id="user" type="text">
                         <label>Usuario...</label>
                     </div>
                     <div>
-                        <input name="emailDiva" type="email" required> 
+                        <input name="emailDiva" id="email" type="email" required> 
                         <label>Email...</label>
                     </div>
                     <div>
-                        <input name="senhaDiva" minlength="8" type="password" required> 
+                        <input name="senhaDiva" minlength="8" id="senha" type="password" required> 
                         <label>Senha... (minimo 8 caracter)</label>
                     </div>
                     <div>
-                        <input name="cpf" type="number" required>
+                        <input name="cpf" id="cpf" type="number" required>
                         <label>CPF...</label>
                     </div>
-                    <div>
+                   <!-- <div>
                         <h2>Escolha seu Avatar</h2>
                         <ul>
                             <li>Avatar 1 - mulher Preta</li>
@@ -75,9 +80,9 @@
                             <li>Avatar 3 - mulher Branca</li>
                             <li>Avatar 4 - mulher Parda</li>
                         </ul>
-                    </div>	
+                    </div> -->	
                     <div>
-                        <input type="submit" value="Cadastrar">
+                        <input type="submit" id="divasForm" Avalue="Cadastrar">
                     </div>
                 </form>
             </div>
@@ -85,10 +90,10 @@
     </div> 
     <!--Fim do bloco de Cadastro do depoimento-->
 
-<footer>
-    <hr>
+<footer>    
     <h1>Rodape</h1>
-    <hr>
 </footer>
+<script src="scriptDivas.js"></script>
+<script src="scriptFormDivas.js"></script>
 </body>
 </html>
