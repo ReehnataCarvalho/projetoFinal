@@ -14,11 +14,13 @@ body{
 }
 .topoContato a{
     width: 50px;
-    font-size: 20px;
-    
+    font-size: 20px
+
 }
+
+
 .topoContato button{
-    border-radius: 10px; 
+    border-radius: 20px; 
     width: 70px;
     background-color:rgb(76, 145, 177);
     color: white;
@@ -65,6 +67,7 @@ footer{
     align-items: center;
     width: 500px;
     margin: 0 auto;
+    
 }
 .titulos{
     text-align: center;
@@ -124,7 +127,7 @@ footer{
     font-size: 25px;  
 }
 .divasForm {
-    margin: 1rem;
+    /* margin: 1rem; */
     padding: 1rem;
     border-radius: 30px;
     box-shadow: 2px 4px 25px rgba(0, 0, 0, .55);
